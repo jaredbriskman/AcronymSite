@@ -12,4 +12,11 @@
 
 {{ partial "text-and-image" (dict "heading" "Proven Value" "text" "We make good things. " "buttonText" "Get in touch" "buttonLink" "/contact") }}
 
+<div class="pb4">
+  {{ range .Params.testimonials }}
+    {{ partial "blockquote" . }}
+  {{ end }}
+</div>
+
+
 {{ partial "footer" . }}

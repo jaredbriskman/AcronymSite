@@ -61,14 +61,12 @@ main:
     alt: Coffee beans
     image: /img/products/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Mom
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      They're just my special snowflakes
+  - author: Lawrence
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      11/10 E! is great this is a real thing.
 full_image: /img/products/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
