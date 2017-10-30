@@ -1,6 +1,6 @@
 +++
 title = "Interest"
-type = "form"
+type = "interest"
 page="/interest.html"
 +++
 
