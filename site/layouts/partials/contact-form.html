@@ -4,11 +4,12 @@
 
   <form name="contact" action="" netlify>
         <!-- Message -->
-      <div>
-      <label>Your message <textarea name="name" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea></label>
-      </div>
+    <fieldset>
+        <textarea name="name" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea>
+        <label for="message">Your message</label>
+    </fieldset> 
         <!-- ReCaptcha -->
-    <div class="center">
+    <div class="tc">
         <div netlify-recaptcha></div>
     </div>
         <!-- Button -->
